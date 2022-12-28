@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* imagens */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner img {
+  width: 100%;
+}
+
+#logo{
+  position: absolute;
+  width: 13em;
+  margin-bottom: 40%;
+  margin-left: 50%;
+}
+
+
+.texto-inicial {
+  width: 48vw;
+  font-size: 1.1em;
+  margin: auto;
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.video {
+  margin-top: 50px;
+  margin: auto;
+}
+
+.solucoes{
+  margin: auto;
+  margin-top: 50px;
+}
+
+.solucoes h1 {
+  font-weight: 1000;
+  text-align: center;
+  font-size: 3.2em;
+  color: #FFDB33;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.solucoes p{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* monitores  */
+
+.monitores {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6% 5% 6%;
+  text-align: center;
+  padding: 2%;
+  /* box-shadow: 0px 17px 9px -15px rgba(0, 0, 0, 0.336); */
+}
+
+.monitores img {
+  width: 25%;
+  border-radius: 15%;
+  margin-top: 5%;
+  margin-right: 4%;
+
+}
+
+.monitores h2 {
+  margin-top: 5vw;
+  text-align: left;
+  color:#FDD000 ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.monitores p {
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+}
+
+.monitores-container {
+  display: flex;
+  flex-direction: column;
+  list-style-position: inside;
+}
+
+.monitores-container p {
+  text-align: left;
+}
+
+.linha {
+  margin: 0 22%;
+}
+
+/* gestao de frota */
+
+
+
+.gestao {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.gestao img {
+  width: 25%;
+  border-radius: 15%;
+  margin-left: 4%;
+
+}
+
+.gestao h2 {
+  margin-top: 2vw;
+  text-align: right;
+  color:#FDD000 ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gestao p {
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1em;
+}
+
+
+/* form */
+
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+.form h2{
+  margin: 6% 20% 5%;
+  text-align: center;
+}
+
+.form form div label {
+  margin-bottom: 10px;
+}
+
+.caixa-grande {
+  display: flex;
+}
+#opcional{
+  color: gray;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+
+.textform  input{
+  width: 100%;
+  height: 6vh;
+  border-radius: 8px;
+  border-color: lightgray;
+  border-width: 0.1px;
+  margin-bottom: 3vh;
+}
+
+
+.mensagemform textarea {
+  width: 100%;
+  height: 65vh;
+  border-radius: 8px;
+  border-color: lightgray;
+  border-width: 1px;
+  text-align: start;
+  resize: none;
+}
+
+.cidadeeestado {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cidadeeestado div {
+  width: 50%;
+}
+
+.cidadeeestado select {
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  border-radius: 8px;
+  border-color: lightgray;
+  border-width: 1px;
+  margin-bottom: 5vh;
+}
+
+.produto select{
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  border-radius: 8px;
+  border-color: lightgray;
+  border-width: 1px;
+  margin-bottom: 5vh;
+}
+
+.confirmbox {
+  margin-top: 1.2vh;
+}
+
+#botao {
+  margin: auto;
+  margin-top: 4vh;
+  width: 100%;
+  height: 9vh;
+  border-radius: 20px;
+  background-color: #003E85;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* footer */
+
+
+footer {
+  padding-top: 12vh;
+  bottom: 0;
+  margin: auto;
+  margin-top: 10vh;
+  color: #FFFFFF;
+  background-color: #003E85;
+}
+
+footer hr {
+  margin: 0 10% 2% 10%;
+}
+
+.footer-text {
+  margin: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#redes-mobile {
+  margin: 0 10% 4% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icones a img{
+  margin-right: 15px;
+}
+
+.politica p{
+  color: #9F9F9F;
+  margin-top: -0.5vw;
+  font-size: 12px;
+}
