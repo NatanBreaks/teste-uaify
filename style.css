@@ -220,6 +220,10 @@ form {
   width: 100%;
 }
 
+#cidade {
+  margin-right: 5%;
+}
+
 .cidadeeestado div {
   width: 50%;
 }
@@ -247,6 +251,11 @@ form {
 .confirmbox {
   margin-top: 1.2vh;
 }
+
+.confirmbox label {
+  margin-left: 15px;
+}
+
 
 #botao {
   margin: auto;

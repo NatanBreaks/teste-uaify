@@ -101,16 +101,16 @@
           <form>
             <div class="textform">
               <label for="nome"><strong>Nome</strong> </label> <br/>
-              <input type="text" required>
+              <input type="text" required id="nome">
             </div>
             <div class="textform">
               <label for="telefone"><strong>Telefone</strong></label> <br/>
-              <input type="text"required>
+              <input type="text"required id="telefone">
             </div>
             <div class="cidadeeestado">
-              <div>
+              <div id="cidade">
                 <label for="cidade"><strong>Cidade</strong> </label> <br/>
-                <select required>
+                <select required id="cidade">
                   <option selected></option>
                   <option value="1">Cidade X</option>
                   <option value="2">Cidade Y</option>
@@ -119,7 +119,7 @@
               </div>
             <div>
               <label for="estado"><strong>Estado</strong> </label> <br/>
-              <select required>
+              <select required id="estado">
                 <option selected></option>
                 <option value="1">Estado x</option>
                 <option value="2">Estado y</option>
@@ -129,7 +129,7 @@
           </div>
           <div class="produto">
             <label for="produto"><strong> Selecione um produto</strong> </label> <br/>
-            <select required>
+            <select required id="produto">
               <option selected></option>
               <option value="1">Produto A</option>
               <option value="2">Produto B</option>
@@ -148,16 +148,15 @@
           </div>
             <div class="confirmbox">
               <input class="checkbox" type="checkbox" name="receber_notificacao">
-              <label class="msgCheckbox" for="receber_notificacao">Desejo receber mais informações sobre produtos e serviços da New Hollands</label>
+              <label for="receber_notificacao">Desejo receber mais informações sobre produtos e serviços da New Hollands</label>
             </div>
         
             <div class="confirmbox">
-              <input class="checkbox" type="checkbox" name="receber_notificacao" required>
-              <label class="msgCheckbox" for="receber_notificacao">Li e concordo com a <strong><a href="https://github.com/NatanBreaks" required>Política de Privacidade</a></label></strong></label>
+              <input class="checkbox" type="checkbox" name="receber_notificacao" id="msgCheckbox" required>
+              <label  for="receber_notificacao">Li e concordo com a <strong> Política de Privacidade</label> deste site</strong></label>
             </div>
-            
+               
             <button id="botao" onclick="alerta()"><strong>ENVIAR</strong></button>
-        
           </form>
 
         </div>
